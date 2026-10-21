@@ -1,0 +1,19 @@
+﻿[project]
+name = "assignment-02"
+version = "0.1.0"
+description = "Course assignment on robustness testing with PyTorch transforms"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib",
+    "numpy",
+    "seaborn",
+    "torch",
+    "torchvision",
+]
+
+[dependency-groups]
+dev = ["ipykernel"]
+
+[tool.uv]
+package = false
